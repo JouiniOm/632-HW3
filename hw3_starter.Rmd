@@ -59,8 +59,8 @@ Write a function `get_width_ci` that calculates the widths of the uncertainty in
 Similar to HW2, in this HW3, you should not define the `get_width_ci()` in this Rmd. Instead, you should define it in `R/get_width_ci.R` file and load it by `load_all()` function call before.
 
 ```{r Data}
-dat <- read_csv("/data/contraceptive_use-2.csv")
-est <- read_csv("data/est-2.csv")
+dat <- read_csv("data-raw/contraceptive_use-2.csv")
+est <- read_csv("data-raw/est-2.csv")
 
 devtools::load_all()
 ```
@@ -122,6 +122,7 @@ Now it is time to share your work again! Create a repo on your GitHub. Commit an
 Note that in order to earn full credits, your GitHub repo commit history should show at least two commits.
 
 Paste your link here...
+https://github.com/JouiniOm/632-HW3
 
 ## Exercise 4 (extra credit): write a test for function `get_width_ci`
 
